@@ -29,7 +29,7 @@ spec:
         - env:
             - name: ETHERPAD_API_KEY
               value: 1LeU6Do5DkpC8NWt8q4iyBCePO81PRIB6Rv1UvcA
-          image: m11007322/bbb-k8s-etherpad/v2.5.5-230209
+          image:  m11007322/bbb-k8s-etherpad/v2.5.5-230208
           ports:
           - containerPort: 6379
           name: etherpad
